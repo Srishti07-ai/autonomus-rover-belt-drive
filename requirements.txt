@@ -1,0 +1,14 @@
+# 🔧 Hardware Components
+Arduino UNO
+L298N Motor Driver
+DC Motors (x2)
+Moving Belt System
+Chassis Base Board
+9V/12V Battery Pack
+Connecting Wires & Switches
+
+# 📦 Arduino Libraries (install via Arduino IDE Library Manager)
+Arduino.h   # Core Arduino functions
+Wire.h      # I2C communication (if using sensors)
+Servo.h     # For servo control (optional)
+SoftwareSerial.h # For Bluetooth / serial communication
