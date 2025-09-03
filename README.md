@@ -51,3 +51,28 @@ if (state == 'F') {
   digitalWrite(motorpin21, HIGH);
   digitalWrite(motorpin22, LOW);
 }
+```
+🚀 How to Run
+
+- Connect Arduino with L298N motor driver and dual DC motors.
+- Upload the code (rover_code.ino) to Arduino via Arduino IDE.
+- Power the rover using a 9V/12V battery pack.
+- Use a Bluetooth module or serial monitor to send navigation commands.
+
+📈 Results
+
+- Successfully navigated different terrains
+- Efficient climbing performance on inclined surfaces
+- Stable movement with obstacle handling
+- Low power consumption with durable belt system
+
+🔮 Future Work
+
+- Integrate LiDAR/camera for vision-based navigation
+- Improve motor torque for steeper inclines
+- AI-based path planning using ML
+- Expand applications: exploration, disaster response, surveillance
+
+📜 License
+
+This project is licensed under the MIT License.
